@@ -9,5 +9,6 @@ import SwiftUI
 struct Tour : Identifiable,Codable {
     var id = UUID()
     var tourName: String
-    var scenes: [DAScene]
+    var floors:[String]
+    var scenes: [[DAScene]]
 }

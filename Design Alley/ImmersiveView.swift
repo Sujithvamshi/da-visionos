@@ -13,15 +13,15 @@ struct ImmersiveView: View {
         RealityView { content in
             // Create and add entities to the RealityView
             let pictureEntity = createImmersivePicture(imageName: selectedImage)
-            let cbr = create3DButton(at: SIMD3<Float>(-2.0, 0.0, 2.0), label: "Children Room")
-            let mbr = create3DButton(at: SIMD3<Float>(2.0, 0.0, 2.0), label: "Master Room")
-            let kitchen = create3DButton(at: SIMD3<Float>(-2.0, 0.0, -2.0), label: "Kitchen")
-            let gbr = create3DButton(at: SIMD3<Float>(2.0, 0.0, 2.0), label: "Guest Room")
-        
-            content.add(cbr)
-            content.add(mbr)
-            content.add(kitchen)
-            content.add(gbr)
+//            let cbr = create3DButton(at: SIMD3<Float>(-2.0, 0.0, 2.0), label: "Children Room")
+//            let mbr = create3DButton(at: SIMD3<Float>(2.0, 0.0, 2.0), label: "Master Room")
+//            let kitchen = create3DButton(at: SIMD3<Float>(-2.0, 0.0, -2.0), label: "Kitchen")
+//            let gbr = create3DButton(at: SIMD3<Float>(2.0, 0.0, 2.0), label: "Guest Room")
+//        
+//            content.add(cbr)
+//            content.add(mbr)
+//            content.add(kitchen)
+//            content.add(gbr)
             content.add(pictureEntity)
         }
         
